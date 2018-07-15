@@ -1,0 +1,14 @@
+package com.gslab.depeninjection.model;
+
+public class Mobile {
+	private long mobileNumber;
+	private String holderName;
+	private String city;
+	public Mobile(long mobileNumber, String holderName, String city) {
+		this.mobileNumber = mobileNumber;
+		this.holderName = holderName;
+		this.city = city;
+	}
+	private void Mobil() {
+	}
+}	

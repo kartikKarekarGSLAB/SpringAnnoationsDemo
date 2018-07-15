@@ -1,0 +1,13 @@
+package com.gslab.annotations.client;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class MessageClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ApplicationContext application = new FileSystemXmlApplicationContext("/message.xml");
+	}
+
+}

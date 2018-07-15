@@ -1,0 +1,16 @@
+package com.gslab.beansdemo.client;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.gslab.beansdemo.model.Employee;
+
+public class EmployeeClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ApplicationContext applicationContext =new ClassPathXmlApplicationContext("employee.xml");
+		applicationContext.getBean(Employee.class);
+	}
+
+}

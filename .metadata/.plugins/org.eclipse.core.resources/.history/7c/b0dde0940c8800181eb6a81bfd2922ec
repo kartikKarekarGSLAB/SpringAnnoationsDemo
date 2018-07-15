@@ -1,0 +1,8 @@
+package com.gslab.dependencyInj.model;
+
+public class Mobile {
+	private long number;
+	private String ownerName;
+	private String city;
+	
+}

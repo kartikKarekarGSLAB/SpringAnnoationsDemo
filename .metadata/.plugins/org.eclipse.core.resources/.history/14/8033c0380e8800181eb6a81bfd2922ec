@@ -1,0 +1,9 @@
+package com.gslab.depeninjection.client;
+
+public class MobileClient {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

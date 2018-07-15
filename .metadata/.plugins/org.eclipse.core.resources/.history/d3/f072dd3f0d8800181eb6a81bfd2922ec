@@ -1,0 +1,8 @@
+package com.gslab.depeninjection.model;
+
+public class Mobile {
+	private long mobileNumber;
+	private String holderName;l
+	private String city;
+	
+}	

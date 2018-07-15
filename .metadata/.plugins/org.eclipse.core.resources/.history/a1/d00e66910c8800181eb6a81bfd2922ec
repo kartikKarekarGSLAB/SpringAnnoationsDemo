@@ -1,0 +1,5 @@
+package com.gslab.dependencyInj.model;
+
+public class Mobile {
+
+}

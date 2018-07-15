@@ -1,0 +1,5 @@
+package com.gslab.beansdemo.model;
+
+public class Student {
+
+}

@@ -1,0 +1,5 @@
+package com.gslab.ioc;
+
+public class Student {
+
+}

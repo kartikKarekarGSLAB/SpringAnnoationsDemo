@@ -1,0 +1,37 @@
+package com.gslab.depeninjection.model;
+
+public class Mobile {
+	private long mobileNumber;
+	private String holderName;
+	private String city;
+	public Mobile(long mobileNumber, String holderName, String city) {
+		this.mobileNumber = mobileNumber;
+		this.holderName = holderName;
+		this.city = city;
+	}
+	public Mobile() {
+	}
+	public long getMobileNumber() {
+		return mobileNumber;
+	}
+	public void setMobileNumber(long mobileNumber) {
+		this.mobileNumber = mobileNumber;
+	}
+	public String getHolderName() {
+		return holderName;
+	}
+	public void setHolderName(String holderName) {
+		this.holderName = holderName;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	@Override
+	public String toString() {
+		return "Mobile [mobileNumber=" + mobileNumber + ", holderName=" + holderName + ", city=" + city + "]";
+	}
+	
+}	

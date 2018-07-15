@@ -1,0 +1,12 @@
+package com.gslab.ioc.creator;
+
+import com.gslab.ioc.Student;
+
+public class StudentCreator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student sobject = new Student(101, "kartik");
+	}
+
+}

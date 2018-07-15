@@ -1,0 +1,44 @@
+package com.gslab.annotations.model;
+
+import org.springframework.beans.factory.annotation.Required;
+import com.gslab.annotations.model.Sender;
+
+public class Message {
+	private int id;
+	private String message;
+	private Sender sender;
+	
+	public Message(int id, String message) {
+		super();
+		this.id = id;
+		this.message = message;
+	}
+	public Message() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public Sender getSender() {
+		return sender;
+	}
+	public void setSender(Sender sender) {
+		sender = sender;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getMessage() {
+		return message;
+	}
+	@Required
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	@Override
+	public String toString() {
+		return "Message [id=" + id + ", message=" + message + "]";
+	}
+	
+}

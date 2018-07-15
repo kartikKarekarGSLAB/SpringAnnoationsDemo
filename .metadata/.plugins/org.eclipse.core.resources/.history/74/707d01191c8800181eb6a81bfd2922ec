@@ -1,0 +1,7 @@
+package com.gslab.annotations.model;
+
+public class Message {
+	private int id;
+	private String message;
+	
+}

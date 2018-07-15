@@ -1,0 +1,6 @@
+package com.gslab.annotations.model;
+
+public class Sender {
+	private String name;
+	
+}

@@ -1,0 +1,7 @@
+package com.gslab.depeninjection.model;
+
+public class Message {
+	private int id;
+	private String name;
+	
+}
